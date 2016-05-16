@@ -1,0 +1,9 @@
+#Force www. in URL
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^uconverter\.net$
+RewriteRule (.*) http://www.converters-online.com/$1 [R=301,L]
+
+#Remove html from pages
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]

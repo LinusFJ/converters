@@ -1,0 +1,288 @@
+body {
+  padding-top: 50px;
+}
+
+.convert-units {
+  text-align: center;
+  margin: 0px auto;
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.google-ads {
+  width: auto;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .convert-units {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (min-width: 992px) {
+  .convert-units {
+    width: 80%;
+    height: auto;
+    float: none;
+  }
+}
+@media (min-width: 1200px) {
+  .convert-units {
+  	width: 70%;
+  	height: auto;
+  	float: none;
+  }
+}
+
+.convert-units button {
+  float: left;
+}
+
+.convert-units-border {
+  display: block;
+  padding: 20px;
+  height: 170px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+       -o-transition: border .2s ease-in-out;
+          transition: border .2s ease-in-out;
+}
+
+.convert-units-equal {
+}
+
+.convert-units-equal img{
+}
+
+@media (min-width: 768px) {
+  .convert-units-equal img{
+  }
+}
+@media (min-width: 992px) {
+  .convert-units-equal img{
+  	width: 30px;
+    height: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .convert-units-equal img{
+  	width: 30px;
+    height: 30px;
+  }
+}
+
+.convert-units-box {
+  width: 90%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .convert-units-box{
+    margin: 20px;
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  .convert-units-box{
+    margin: 20px;
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .convert-units-box{
+    margin: 20px;
+    float: left;
+  }
+}
+
+
+
+.convert-units-header {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  text-align: left;
+}
+.convert-units-header hr{
+  margin-top: 0px;
+  border-color: #CCC;
+}
+@media (min-width: 768px) {
+  .convert-units-header {
+    width: 750px;
+    text-align: left;
+  }
+}
+@media (min-width: 992px) {
+  .convert-units-header {
+    width: 970px;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  .convert-units-header {
+    width: 1170px;
+    text-align: left;
+    padding-left: 180px;
+    padding-right: 200px;
+  }
+}
+
+.units-table {
+  text-align: left;
+  margin: 0px auto;
+  width: 100%;
+  height: auto;
+  float: left;
+}
+@media (min-width: 768px) {
+  .units-table {
+  	margin-left: 10px;
+  	margin-right: 10px;
+  }
+}
+@media (min-width: 992px) {
+  .units-table {
+  	margin-left: 10px;
+  	margin-right: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .units-table {
+  	margin-left: 10px;
+  	margin-right: 10px;
+  }
+}
+
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .footer {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .footer {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .footer {
+    width: 1170px;
+  }
+}
+
+.info-box {
+  text-align: left;
+  margin: 0px auto;
+  width: 100%;
+  height: auto;
+  float: left;
+}
+@media (min-width: 768px) {
+  .info-box {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (min-width: 992px) {
+  .info-box {
+    width: 80%;
+    height: auto;
+    float: none;
+  }
+}
+@media (min-width: 1200px) {
+  .info-box {
+    width: 70%;
+    height: auto;
+    float: none;
+  }
+}
+.panel-body p {
+  display: inline;
+}
+
+.navbar-inverse .navbar-nav > .purple-background > a {
+  background-image: linear-gradient(top, transparent 90%, #a415bb 10%);
+  background-image: -o-linear-gradient(top, transparent 90%, #a415bb 10%);
+  background-image: -moz-linear-gradient(top, transparent 90%, #a415bb 10%);
+  background-image: -webkit-linear-gradient(top, transparent 90%, #a415bb 10%);
+  background-image: -ms-linear-gradient(top, transparent 90%, #a415bb 10%);
+}
+
+.navbar-inverse .navbar-nav > .blue-background > a {
+  background-image: linear-gradient(top, transparent 90%, #337ab7 10%);
+  background-image: -o-linear-gradient(top, transparent 90%, #337ab7 10%);
+  background-image: -moz-linear-gradient(top, transparent 90%, #337ab7 10%);
+  background-image: -webkit-linear-gradient(top, transparent 90%, #337ab7 10%);
+  background-image: -ms-linear-gradient(top, transparent 90%, #337ab7 10%);
+}
+
+.navbar-inverse .navbar-nav > .yellow-background > a {
+  background-image: linear-gradient(top, transparent 90%, #f0ad4e 10%);
+  background-image: -o-linear-gradient(top, transparent 90%, #f0ad4e 10%);
+  background-image: -moz-linear-gradient(top, transparent 90%, #f0ad4e 10%);
+  background-image: -webkit-linear-gradient(top, transparent 90%, #f0ad4e 10%);
+  background-image: -ms-linear-gradient(top, transparent 90%, #f0ad4e 10%);
+}
+
+.navbar-inverse .navbar-nav > .red-background > a {
+  background-image: linear-gradient(top, transparent 90%, #d9534f 10%);
+  background-image: -o-linear-gradient(top, transparent 90%, #d9534f 10%);
+  background-image: -moz-linear-gradient(top, transparent 90%, #d9534f 10%);
+  background-image: -webkit-linear-gradient(top, transparent 90%, #d9534f 10%);
+  background-image: -ms-linear-gradient(top, transparent 90%, #d9534f 10%);
+}
+
+.navbar-inverse .navbar-nav > .lightblue-background > a {
+  background-image: linear-gradient(top, transparent 90%, #5bc0de 10%);
+  background-image: -o-linear-gradient(top, transparent 90%, #5bc0de 10%);
+  background-image: -moz-linear-gradient(top, transparent 90%, #5bc0de 10%);
+  background-image: -webkit-linear-gradient(top, transparent 90%, #5bc0de 10%);
+  background-image: -ms-linear-gradient(top, transparent 90%, #5bc0de 10%);
+}
+
+.navbar-inverse .navbar-nav > .green-background > a {
+  background-image: linear-gradient(top, transparent 90%, #5cb85c 10%);
+  background-image: -o-linear-gradient(top, transparent 90%, #5cb85c 10%);
+  background-image: -moz-linear-gradient(top, transparent 90%, #5cb85c 10%);
+  background-image: -webkit-linear-gradient(top, transparent 90%, #5cb85c 10%);
+  background-image: -ms-linear-gradient(top, transparent 90%, #5cb85c 10%);
+}
+
+.ad {
+  width: 320px;
+  height: 100px;
+  margin: 0px auto;
+}
+@media (min-width: 768px) {
+  .ad {
+  width: 728px;
+  height: 90px;
+  }
+}
+@media (min-width: 992px) {
+  .ad {
+  width: 728px;
+  height: 90px;
+  }
+}
+@media (min-width: 1200px) {
+  .ad {
+  width: 728px;
+  height: 90px;
+  }
+}

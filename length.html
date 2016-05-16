@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Convert units - Converters-online.com</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css?version=1" rel="stylesheet">
+
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <!-- Custom styles for this template -->
+    <link href="css/stylesheet.css?version=1" rel="stylesheet">
+
+    <!-- Google analytics -->
+    <script src="js/google_analytics.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">converters-online.com</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="purple-background active"><a href="length.html">
+              <span class="glyphicon glyphicon-resize-full" aria-hidden="true"></span> Length</a></li>
+            <li class="blue-background"><a href="weight.html">
+              <span class="glyphicon glyphicon-scale" aria-hidden="true"></span> Weight</a></li>
+            <li class="yellow-background"><a href="cooking.html">
+              <span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span> Cooking</a></li>
+            <li class="red-background"><a href="temperature.html">
+              <span class="glyphicon glyphicon-cloud" aria-hidden="true"></span> Temperature</a></li>
+            <li class="lightblue-background"><a href="time.html">
+              <span class="glyphicon glyphicon-time" aria-hidden="true"></span> Time</a></li>
+            <li><a href="about.html">
+              <span class="glyphicon glyphicon-user" aria-hidden="true"></span> About & Privacy</a></li>
+
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <ol class="breadcrumb">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="converters.html">All converters</a></li>
+      <li class="active">Length converter</li>
+    </ol><!-- /.breadcrumb -->
+
+    <div class="container">
+
+      <div class="convert-units-header">
+        <h1>Length converter</h1>
+        <hr>
+      </div>
+      
+      <div class="convert-units">
+
+
+
+        <table align="center" width="100%">
+          <tr>
+            <td>
+              <div class="convert-units-box">
+
+                <div class="convert-units-border">
+                      <select class="form-control" id="convFrom" name="convertFrom" onchange="getFirstUnit();">
+                        <option id="meter">Meter</option>
+                        <option id="inch">Inch</option>
+                        <option id="foot">Foot</option>
+                        <option id="yard">Yard</option>
+                        <option id="mile">Mile</option>
+                        <option id="nmi">Naut-mile</option>
+                        <option id="millimeter">Millimeter</option>
+                        <option id="centimeter">Centimeter</option>
+                        <option id="decimeter">Decimeter</option>
+                        <option id="kilometer">Kilometer</option>
+                        <option id="league">League</option>
+                        <option id="furlong">Furlong</option>
+                        <option id="rod">Rod</option>
+                        <option id="mil">Mil</option>
+                        <option id="ang">Angstrom</option>
+                        <option id="fathom">Fathom</option>
+                        <option id="pica">Pica</option>
+                        <option id="point">Point</option>
+                        <option id="red-shift">Redshift</option>
+                        <option id="AU">AU (Astronomical-unit)</option>
+                        <option id="light-second">Light-second</option>
+                        <option id="light-minute">Light-minute</option>
+                        <option id="light-year">Light-year</option>
+                        <option id="parsec">Parsec</option>
+                      </select>
+                    <br>
+                    <div class="form-group">
+                      <input class="form-control" type="text" id="convertFirstUnit" placeholder="Enter value" onkeyup="getFirstUnit();" onchange="getFirstUnit();">
+                    </div>
+                    <button type="submit" class="btn btn-default" onclick="resetUnit();">Reset</button>
+                </div><!-- /.first box -->
+              </div>
+            </td>
+
+            <td>
+              <div class="convert-units-equal">
+                <img src="img/equals.png" height="24" width="24"></img>
+              </div>
+            </td><!-- /.equal sign picture -->
+
+            <td>
+              <div class="convert-units-box">   
+                <div class="convert-units-border">     
+                      <select class="form-control" id="convTo" name="convertTo" onchange="getFirstUnit();">
+                        <option id="meter">Meter</option>
+                        <option id="inch">Inch</option>
+                        <option id="foot" selected>Foot</option>
+                        <option id="yard">Yard</option>
+                        <option id="mile">Mile</option>
+                        <option id="nmi">Naut-mile</option>
+                        <option id="millimeter">Millimeter</option>
+                        <option id="centimeter">Centimeter</option>
+                        <option id="decimeter">Decimeter</option>
+                        <option id="kilometer">Kilometer</option>
+                        <option id="league">League</option>
+                        <option id="furlong">Furlong</option>
+                        <option id="rod">Rod</option>
+                        <option id="mil">Mil</option>
+                        <option id="ang">Angstrom</option>
+                        <option id="fathom">Fathom</option>
+                        <option id="pica">Pica</option>
+                        <option id="point">Point</option>
+                        <option id="red-shift">Redshift</option>
+                        <option id="AU">AU (Astronomical-unit)</option>
+                        <option id="light-second">Light-second</option>
+                        <option id="light-minute">Light-minute</option>
+                        <option id="light-year">Light-year</option>
+                        <option id="parsec">Parsec</option>
+                      </select>
+                    <br>
+                    <div class="form-group">
+                      <input class="form-control" type="text" id="convertSecondUnit" placeholder="Enter value" onkeyup="getSecondUnit();" onchange="getSecondUnit();">
+                    </div>
+                </div><!-- /.second box -->
+              </div>
+            </td>
+
+          </tr>
+        </table>
+
+
+
+        <div class="units-table">
+          <div class="panel panel-default">
+
+            <div class="google-ads">
+              <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <!-- ad_mobile -->
+              <ins class="adsbygoogle"
+                   style="display:block"
+                   data-ad-client="ca-pub-3177476202399448"
+                   data-ad-slot="1545571617"
+                   data-ad-format="auto"></ins>
+              <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+              </script>
+            </div>
+
+            <div class="panel-heading">
+              <h3 class="panel-title"><b>Definition</b></h3>
+            </div>
+            <div class="panel-body">
+              <h5>Length is a basic geometric measurement which describes how long (wide) an object is. The length is expressed in some kind of length measurement unit, which is also used to describe distance. The standard SI unit of length is the meter. Meter gives you millimeter (one thousandth of a meter), kilometer (thousands of meters) and more. There are also length measurement units that are not based on meters, for example, English mile (mile) or light-years. Light-years are used to measure very large distances in the universe.
+              </h5>
+            </div>
+
+            <div class="panel-heading">
+              <h3 class="panel-title"><b>Result</b></h3>
+            </div>
+            <div class="panel-body">
+              <p id="convert-result"></p>
+            </div>
+
+            <div class="panel-heading">
+              <h3 class="panel-title"><b>Length conversion cheat sheet</b></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Metric to U.S</h4>
+                <p>1 centimeter = 0.3937 inch
+                <br>1 meter = 39.37 inches
+                <br>1 meter = 1.0936 yards
+                <br>1 kilometer = 0.6214 mile</p>
+              <h4>U.S to Metric</h4>
+                <p>1 inch = 2.54 centimeters
+                <br>1 foot = 30.48 centimeters
+                <br>1 foot = 0.3048 meters
+                <br>1 yard = 0.9144 meters
+                <br>1 rod = 5.029 meters
+                <br>1 mile = 1.6093 kilometer</p>
+            </div>
+            <div class="panel-heading">
+              <h3 class="panel-title"><b>Units used in this converter</b></h3>
+            </div>
+            <div class="panel-body">
+                <p>
+                  meter, inch, foot, yard, mile, nautical mile, millimeter, centimeter, decimeter, kilometer, league, furlong, rod, mil, Angstrom, fathom, pica, point, redshift, astronomical unit, light second, light minute, light year, parsec
+                </p>
+            </div>
+          </div>
+        </div><!-- /.units-table -->
+
+      </div><!-- /.convert-units -->
+    </div><!-- /.container -->
+
+    <footer class="footer">
+      <p class="text-muted">&copy; 2016 converters-online.com&nbsp;&nbsp;
+        <a href="how-to-use.html">How to use</a>&nbsp;&nbsp;
+        <a href="about.html">About</a>&nbsp;&nbsp;
+        <a href="contact.html">Contact</a>&nbsp;&nbsp;
+      </p>
+    </footer><!-- /.footer -->
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js?version=1"></script>
+    <script src="js/units.js?version=1"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
